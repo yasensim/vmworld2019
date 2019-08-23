@@ -13,7 +13,7 @@ from com.vmware.vapi.std.errors_client import Error
 def main():
 
     api_client = auth.create_nsx_policy_api_client(
-        "admin", "VMwareVMware1!", "nsx1.yasen.local", 443,
+        "admin", "superSecretPassword", "nsx1.yasen.local", 443,
         auth_type=auth.SESSION_AUTH)
 
     # Create a pretty printer to make the output look nice.
